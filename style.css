@@ -497,33 +497,30 @@ header .container .mybtns a:nth-child(2):hover {
 }
 #teams .the-images-section {
   display: flex;
-  align-items: center;
+  align-items: left;
   width: 100%;
   height: 100vh;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 10px;
-  gap: 20px;
   margin: 0 auto;
   margin-bottom: 270px;
+  position: relative;
 }
-#teams .the-images-section .first-image .contents p{
+#teams .the-images-section .contents p{
   color: #981E5D;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  max-width: 109%;
+  width: 600px;
   background-color: transparent;
-  padding: 10px 10px;
+  padding: 30px 20px;
   margin: auto;
-  margin-left: -33px;
-  margin-top: 52px;
   box-shadow:inset 1px 3px 5px black;
   border-radius: 10px;
+
 }
 #teams .the-images-section .first-image {
-  width: 390px;
-  height: 450px;
+  width: 430px;
+  height: 480px;
   border: solid 1px transparent;
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
@@ -533,65 +530,68 @@ header .container .mybtns a:nth-child(2):hover {
   background-size: contain;
   background-repeat: no-repeat;
 }
-#teams .the-images-section .first-image .contents {
-  width: 390px;
-  height: 370px;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
+#teams .the-images-section .contents {
+  width: fit-content;
+  height: fit-content;
   border-radius: 10px;
   -webkit-backdrop-filter: 200px;
           backdrop-filter: 200px;
-  padding-top: 350px;
   padding-left: 30px;
 }
-#teams .the-images-section .first-image .contents h3 {
+#teams .the-images-section .contents h3 {
   font-size: 25px;
   color: #981E5D;
 }
-#teams .the-images-section .first-image .contents h4 {
+#teams .the-images-section .contents h4 {
   font-size: 20px;
+  margin-bottom: 30px;
 }
 #teams .the-images-section .first-image img {
   width: 360px;
   height: 440px;
   background: linear-gradient(rbga(0, 0, 0, 0.5));
 }
-#teams .the-images-section .first-image2 {
-  width: 390px;
-  height: 450px;
+#teams .the_image_section_last .first-image4 {
+  width: 3200px;
+  height: 350px;
   border: solid 1px transparent;
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
   position: relative;
-  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/managingDirector.jpeg);
+  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/image-7.png);
   background-position: center;
   background-size: cover;
 }
-#teams .the-images-section .first-image2 .contents {
-  width: 390px;
-  height: 370px;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
+#teams .the_image_section_last .first-image4 .contents {
+  width:320px;
+  height: fit-content;
   border-radius: 10px;
+  margin-top: 260px;
   -webkit-backdrop-filter: 200px;
           backdrop-filter: 200px;
-  padding-top: 350px;
   padding-left: 30px;
 }
-#teams .the-images-section .first-image2 .contents h3 {
-  font-size: 30px;
+#teams .the-images-section .first-image4 .contents h3 {
+  font-size: 90px;
   color: #981E5D;
 }
-#teams .the-images-section .first-image2 .contents h4 {
+#teams .the_image_section_last .first-image4 .contents h4 {
   font-size: 20px;
 }
-#teams .the-images-section .first-image3 {
-  width: 390px;
-  height: 450px;
+#teams .the_image_section_last .first-image4 .contents p{
+  color: #981E5D;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 10px 10px;
+  margin: auto;
+  margin-left: -33px;
+  margin-top: 25px;
+  box-shadow:inset 1px 3px 5px black;
+  border-radius: 10px;
+}
+#teams .the_image_section_last .first-image3 {
+  width: 320px;
+  height: 350px;
   border: solid 1px transparent;
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
@@ -600,36 +600,32 @@ header .container .mybtns a:nth-child(2):hover {
   background-position: center;
   background-size: cover;
 }
-#teams .the-images-section .first-image3 img {
-  width: 390px;
-  height: 350px;
+#teams .tthe_image_section_last .first-image3 img {
+  width: 330px;
+  height: 320px;
 }
-#teams .the-images-section .first-image3 .contents {
-  width: 100%;
-  height: 370px;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
+#teams .the_image_section_last .first-image3 .contents {
+  width: fit-content;
+  height: fit-content;
   border-radius: 10px;
   -webkit-backdrop-filter: 200px;
           backdrop-filter: 200px;
-  padding-top: 350px;
   padding-left: 30px;
+  margin-top: 250px;
 }
-#teams .the-images-section .first-image3 .contents h3 {
+#teams .the_image_section_last .first-image3 .contents h3 {
   font-size: 30px;
   color: #981E5D;
 }
-#teams .the-images-section .first-image3 .contents h4 {
+#teams .the_image_section_last .first-image3 .contents h4 {
   font-size: 20px;
 }
 
-#teams .the-images-section .first-image3 .contents p{
+#teams .the_image_section_last .first-image3 .contents p{
   color: #981E5D;
   margin-top: 30px;
   margin-bottom: 50px;
-  max-width: 109%;
+  width: 320px;
   background-color: transparent;
   padding: 10px 10px;
   margin: auto;
@@ -639,30 +635,17 @@ header .container .mybtns a:nth-child(2):hover {
   border-radius: 10px;
 }
 
-#teams .the-images-section .first-image2 .contents p{
-  color: #981E5D;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  max-width: 109%;
-  background-color: transparent;
-  padding: 10px 10px;
-  margin: auto;
-  margin-left: -33px;
-  margin-top: 45px;
-  box-shadow:inset 1px 3px 5px black;
-  border-radius: 10px;
-}
 /* the last image section */
 .the_image_section_last{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 290px;
-  padding: 0 30px;
+  margin-bottom: 380px;
+  gap: 10px;
 }
 .the_image_section_last .first-image1 {
-    width: 370px;
-    height: 450px;
+  width: 320px;
+  height: 350px;
     border: solid 1px transparent;
     box-shadow: 0px 1px 6px 1px black;
     border-radius: 10px;
@@ -673,23 +656,18 @@ header .container .mybtns a:nth-child(2):hover {
     flex-direction: column;
   }
   #teams .the_image_section_last .first-image1 .contents {
-    width: 400px;
-    height: 370px;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
+    width: 320px;
+    height: fit-content;
     border-radius: 10px;
     -webkit-backdrop-filter: 200px;
             backdrop-filter: 200px;
-    padding-top: 330px;
+    margin-top: 225px;
     padding-left: 30px;
   }
   #teams .the_image_section_last .first-image1 .contents p{
     color: #981E5D;
     margin-top: 30px;
     margin-bottom: 50px;
-    width: 100%;
     background-color: transparent;
     padding: 10px 10px;
     margin: auto;
@@ -713,8 +691,8 @@ header .container .mybtns a:nth-child(2):hover {
   }
 /* Image Four Contents Section */
 #teams .the_image_section_last .first-image2 {
-  width: 390px;
-  height: 450px;
+  width: 320px;
+  height: 350px;
   border: solid 1px transparent;
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
@@ -725,16 +703,12 @@ header .container .mybtns a:nth-child(2):hover {
   flex-direction: column;
 }
 #teams .the_image_section_last .first-image2 .contents {
-  width: 390px;
-  height: 370px;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
+  width: fit-content;
+  height: fit-content;
   border-radius: 10px;
   -webkit-backdrop-filter: 200px;
           backdrop-filter: 200px;
-  padding-top: 330px;
+  margin-top: 225px;
   padding-left: 30px;
 }
 #teams .the_image_section_last .first-image2 .contents p{

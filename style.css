@@ -501,7 +501,6 @@ header .container .mybtns a:nth-child(2):hover {
   width: 100%;
   height: 100vh;
   justify-content: space-around;
-  flex-direction: column;
   flex-wrap: wrap;
   margin-top: 10px;
   margin: 0 auto;
@@ -510,12 +509,13 @@ header .container .mybtns a:nth-child(2):hover {
 }
 #teams .the-images-section .contents p{
   color: #981E5D;
-  width: 600px;
+  width: 100%;
   background-color: transparent;
   padding: 30px 20px;
   margin: auto;
   box-shadow:inset 1px 3px 5px black;
   border-radius: 10px;
+
 
 }
 #teams .the-images-section .first-image {
@@ -537,6 +537,8 @@ header .container .mybtns a:nth-child(2):hover {
   -webkit-backdrop-filter: 200px;
           backdrop-filter: 200px;
   padding-left: 30px;
+  margin-top: 10px;
+  text-align: center;
 }
 #teams .the-images-section .contents h3 {
   font-size: 25px;
@@ -558,7 +560,7 @@ header .container .mybtns a:nth-child(2):hover {
   box-shadow: 0px 1px 6px 1px black;
   border-radius: 10px;
   position: relative;
-  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/image-7.png);
+  background: linear-gradient(rgba(172, 165, 165, 0.596), rgba(244, 244, 247, 0.425)), url(images/managingDirector.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -566,7 +568,7 @@ header .container .mybtns a:nth-child(2):hover {
   width:320px;
   height: fit-content;
   border-radius: 10px;
-  margin-top: 260px;
+  margin-top: 205px;
   -webkit-backdrop-filter: 200px;
           backdrop-filter: 200px;
   padding-left: 30px;
@@ -642,6 +644,7 @@ header .container .mybtns a:nth-child(2):hover {
   align-items: center;
   margin-bottom: 380px;
   gap: 10px;
+  margin-top: 500px;
 }
 .the_image_section_last .first-image1 {
   width: 320px;
@@ -650,10 +653,11 @@ header .container .mybtns a:nth-child(2):hover {
     box-shadow: 0px 1px 6px 1px black;
     border-radius: 10px;
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.596), rgba(244, 244, 247, 0.425)), url(images/member.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.596), rgba(244, 244, 247, 0.425)), url(images/survey.jpeg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     flex-direction: column;
+    background-repeat: no-repeat;
   }
   #teams .the_image_section_last .first-image1 .contents {
     width: 320px;

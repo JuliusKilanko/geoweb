@@ -380,7 +380,7 @@ header .container .mybtns a:nth-child(2):hover {
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
-  margin-top: -115px;
+  margin-top: -175px;
   margin-right: 300px;
 }
 #Gallary .call-btn a {
@@ -515,6 +515,7 @@ header .container .mybtns a:nth-child(2):hover {
   margin: auto;
   box-shadow:inset 1px 3px 5px black;
   border-radius: 10px;
+  margin-bottom: 4010px;
 
 
 }
@@ -530,7 +531,7 @@ header .container .mybtns a:nth-child(2):hover {
   background-size: contain;
   background-repeat: no-repeat;
 }
-#teams .the-images-section .contents {
+#teams .the-images-section .first-image .contents {
   width: fit-content;
   height: fit-content;
   border-radius: 10px;
@@ -543,10 +544,12 @@ header .container .mybtns a:nth-child(2):hover {
 #teams .the-images-section .contents h3 {
   font-size: 25px;
   color: #981E5D;
+  text-align: center;
 }
 #teams .the-images-section .contents h4 {
   font-size: 20px;
   margin-bottom: 30px;
+  text-align: center;
 }
 #teams .the-images-section .first-image img {
   width: 360px;

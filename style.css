@@ -648,6 +648,7 @@ header .container .mybtns a:nth-child(2):hover {
   margin-bottom: 380px;
   gap: 10px;
   margin-top: 500px;
+  text-align: center;
 }
 .the_image_section_last .first-image1 {
   width: 320px;
@@ -752,7 +753,7 @@ header .container .mybtns a:nth-child(2):hover {
   height: fit-content;
 }
 #the-video-section .large-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(7, 36, 80, 0.432)), url(images/WhatsApp\ Image\ 2022-12-03\ at\ 4.35.50\ AM\ \(2\).jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(7, 36, 80, 0.432)), url(images/videobanner.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
